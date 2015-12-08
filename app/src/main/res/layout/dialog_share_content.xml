@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享到"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black" />
+
+    <!--    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/tv_wechat"
+                style="@style/dialog_share_content_text"
+                android:drawableTop="@drawable/ssdk_oks_skyblue_logo_qq"
+                android:text="@string/ssdk_wechat"/>
+            <TextView
+                android:id="@+id/tv_wechatmoments"
+                style="@style/dialog_share_content_text"
+                android:drawableTop="@drawable/ssdk_oks_skyblue_logo_qq"
+                android:text="@string/ssdk_wechatmoments"/>
+            <TextView
+                android:id="@+id/tv_qq"
+                style="@style/dialog_share_content_text"
+                android:drawableTop="@drawable/ssdk_oks_skyblue_logo_qq_checked"
+                android:text="@string/ssdk_qq"/>
+            <TextView
+                android:id="@+id/tv_qzone"
+                style="@style/dialog_share_content_text"
+                android:drawableTop="@drawable/ssdk_oks_skyblue_logo_qq"
+                android:text="@string/ssdk_qzone"/>
+        </LinearLayout>-->
+
+    <GridView
+        android:listSelector="@android:color/transparent"
+        android:id="@+id/gv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="4"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="8dp"
+        android:verticalSpacing="1dp"></GridView>
+
+    <Button
+        android:id="@+id/btn_dimiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消" />
+
+</LinearLayout>

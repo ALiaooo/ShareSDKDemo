@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ShareSDK</string>
+    <string name="ssdk_weibo_oauth_regiseter">应用授权</string>
+    <string name="ssdk_website">http://www.mob.com</string>
+    <string name="ssdk_weibo_upload_content">分享图片</string>
+    <string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+
+    <string name="ssdk_sinaweibo">新浪微博</string>
+    <string name="ssdk_qzone">QQ空间</string>
+    <string name="ssdk_wechat">微信好友</string>
+    <string name="ssdk_wechatmoments">微信朋友圈</string>
+    <string name="ssdk_wechatfavorite">微信收藏</string>
+    <string name="ssdk_email">邮件</string>
+    <string name="ssdk_shortmessage">信息</string>
+    <string name="ssdk_qq">QQ</string>
+    <string name="ssdk_whatsapp">WhatsApp</string>
+    <string name="ssdk_instapaper_email">邮箱</string>
+    <string name="ssdk_instapaper_pwd">密码</string>
+    <string name="ssdk_instapaper_login">登录</string>
+    <string name="ssdk_instapaper_logining">登录中…</string>
+    <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
+
+
+    <string name="ssdk_share_to_qzone">分享到QQ空间</string>
+    <string name="ssdk_share_to_qq">分享到QQ</string>
+    <string name="ssdk_mingdao_share_content">网页分享</string>
+    <string name="ssdk_share_to_qzone_default">来自%s的分享</string>
+    <string name="ssdk_use_login_button">请改用“登录”按钮</string>
+
+
+    <string name="ssdk_oks_cancel">取消</string>
+    <string name="ssdk_oks_finish">完成</string>
+    <string name="ssdk_oks_sharing">分享操作正在后台进行…</string>
+    <string name="ssdk_oks_share_to">分享到</string>
+    <string name="ssdk_oks_share">分享</string>
+    <string name="ssdk_oks_multi_share">图文分享</string>
+    <string name="ssdk_oks_share_completed">分享成功</string>
+    <string name="ssdk_oks_share_canceled">分享已取消</string>
+    <string name="ssdk_oks_select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="ssdk_oks_list_friends">%s的朋友</string>
+    <string name="ssdk_oks_share_failed">分享失败</string>
+    <string name="ssdk_oks_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_oks_release_to_refresh">松开刷新</string>
+    <string name="ssdk_oks_refreshing">刷新中…</string>
+    <string name="ssdk_oks_shake2share">摇晃手机！</string>
+    <string name="ssdk_oks_select_a_friend">请选择一个朋友</string>
+</resources>
