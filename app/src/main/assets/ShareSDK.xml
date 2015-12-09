@@ -52,7 +52,7 @@
 			Pocket         http://getpocket.com/developer/apps/new
     -->
 
-    <ShareSDK AppKey="c6ae2acf3f90" /> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
+    <ShareSDK AppKey="androidv1101" /> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
 
     <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
     <SinaWeibo Id="1" SortId="1" AppKey="3421926885" AppSecret="99823bd3f93f6ddc2cde4d3872901e6a"
@@ -60,11 +60,7 @@
 
 
     <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
-    <QZone Id="3" SortId="3" AppId="1104646053" AppKey="bYlW9M39pwYjYhMf" ShareByAppClient="false"
-        Enable="true" />
 
-    <!--AppId="100371282"-->
-    <!--AppKey="aed9b0303e3ed1e27bae87c33761161d"-->
 
     <!-- 
     	Wechat微信和WechatMoments微信朋友圈的appid是一样的；
@@ -81,14 +77,20 @@
     <Wechat Id="4" SortId="4" AppId="wx4868b35061f87885"
         AppSecret="64020361b8ec4c99936c0e3999a9f249" BypassApproval="true" Enable="true" />
 
-    <WechatMoments Id="5" SortId="5" AppId="wx4868b35061f87885"
-        AppSecret="64020361b8ec4c99936c0e3999a9f249" BypassApproval="false" Enable="true" />
+    <WechatMoments Id="5" SortId="5" AppId="wx4c0bbd7dd8a4ca64"
+        AppSecret="0f91d49a21dc916eb567cfef1f67d43c" BypassApproval="false" Enable="true" />
 
     <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
-    <QQ Id="7" SortId="7" AppId="1104646053" AppKey="Je5nMlSiSAKhbGEf" ShareByAppClient="true"
+    <QQ Id="7" SortId="7" AppId="1104646053" AppKey="bYlW9M39pwYjYhMf" ShareByAppClient="true"
         Enable="true" />
 
     <!--AppId="1104903927"-->
     <!--AppKey="7diejc2sJIENuxg3"-->
+
+    <QZone Id="3" SortId="3" AppId="1104646053" AppKey="bYlW9M39pwYjYhMf" ShareByAppClient="false"
+        Enable="true" />
+
+    <!--AppId="100371282"-->
+    <!--AppKey="aed9b0303e3ed1e27bae87c33761161d"-->
 
 </DevInfor>

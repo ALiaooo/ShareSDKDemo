@@ -26,6 +26,7 @@ public class ShareDialog extends Dialog {
     private GridView mGridView;
     List<HashMap<String, Object>> mShareList;
     private String[] name = {"微信", "微信朋友圈", "QQ", "QQ空间"};
+
     private int[] icon = {R.drawable.ssdk_oks_skyblue_logo_qq, R.drawable.ssdk_oks_skyblue_logo_qq,
             R.drawable.ssdk_oks_skyblue_logo_qq_checked, R.drawable.ssdk_oks_skyblue_logo_qq};
 
@@ -42,7 +43,7 @@ public class ShareDialog extends Dialog {
         View shareView = getLayoutInflater().inflate(R.layout.dialog_share_content, null);
         addContentView(shareView, new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        initShareType();
+        initShare();
         SimpleAdapter adapter = new SimpleAdapter(context, mShareList, R.layout.item_dialog_share,
                 new String[]{"ItemImage", "ItemText"}, new int[]{R.id.iv_icon, R.id.tv_from});
         mGridView = (GridView) shareView.findViewById(R.id.gv_share);
@@ -73,7 +74,7 @@ public class ShareDialog extends Dialog {
 
     }
 
-    private void initShareType() {
+    private void initShare() {
         mShareList = new ArrayList<HashMap<String, Object>>();
         for (int i = 0; i < icon.length; i++) {
             HashMap<String, Object> map = new HashMap<String, Object>();

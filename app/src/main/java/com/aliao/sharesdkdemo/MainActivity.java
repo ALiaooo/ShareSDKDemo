@@ -22,8 +22,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //打开分享选择界面
-                ShareHelper shareHelper = new ShareHelper();
-                shareHelper.show(MainActivity.this);
+                ShareHelper shareHelper = new ShareHelper(MainActivity.this);
+                shareHelper.setTitle("分享标题");
+                shareHelper.setText("分享的内容");
+                shareHelper.setImageUrl("http://f1.sharesdk.cn/imgs/2014/05/21/oESpJ78_533x800.jpg");
+                shareHelper.setUrl("http://www.mob.com");
+                shareHelper.setSite("来自");
+                shareHelper.setSiteUrl("http://www.mob.com");
+                shareHelper.show();
             }
         });
     }
