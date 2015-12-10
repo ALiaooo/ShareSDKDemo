@@ -11,6 +11,7 @@
     <style name="dialog_common" parent="@style/Theme.AppCompat.Dialog">
         <item name="android:windowBackground">@color/white</item>
     </style>
+    <!--parent="@style/Theme.AppCompat.Dialog"-->
 
     <style name="dialog_bottom" parent="@style/dialog_common">
         <!--<item name="android:windowBackground">@drawable/dialog_bottom_background</item>-->
